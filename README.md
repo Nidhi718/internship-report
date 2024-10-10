@@ -3,10 +3,10 @@ This project focuses on demand forecasting for e-commerce, leveraging historical
 
 This project is designed to help businesses anticipate customer demand and make data-driven decisions for inventory management, supply chain optimization, and marketing strategies.
 
-Problem Statement:
+# Problem Statement:
 The e-commerce industry faces fluctuating product demand, influenced by various factors like seasonal trends, marketing campaigns, and consumer behavior. Without accurate forecasting, businesses risk stockouts or overstocking, leading to lost revenue and increased operational costs. The goal of this project is to develop a machine learning-based demand forecasting model to predict future demand for products based on historical sales data, web analytics, and external factors like social media influence.
 
-Key Features:
+# Key Features:
 Data Ingestion: Collect and preprocess data from multiple sources, including historical sales records, Google Analytics KPIs, social media engagement (Google clicks, Facebook impressions), and external variables like holidays or events.
 
 Exploratory Data Analysis (EDA): Understand data distributions, relationships, and trends. Analyze key metrics and visualize patterns in sales and demand over time.
@@ -26,7 +26,7 @@ Model Evaluation: Assess model performance using appropriate metrics (e.g., RMSE
 
 Visualization and Reporting: Visualize the predicted demand and compare it against actual demand to evaluate forecasting accuracy. Generate business-friendly reports and dashboards to support decision-making.
 
-Tools and Technologies:
+# Tools and Technologies:
 
 Languages: Python (for data manipulation and model development)
 
@@ -40,7 +40,7 @@ Data Handling: SQL, Hadoop, Hive (for large datasets)
 Deployment: Flask (for deploying predictive models as web apps)
 
 
-Data Sources:
+# Data Sources:
 Historical Sales Data: Product sales data for previous months/years
 
 Google Analytics: KPIs such as page views, clicks, and bounce rates
@@ -50,13 +50,13 @@ Social Media Engagement: Facebook impressions and ad performance
 External Factors: Public holidays, special events (e.g., Black Friday)
 
 
-Goals:
+# Goals:
 Optimize Inventory Management: Forecast demand to maintain the right level of stock.
 Improve Marketing Campaigns: Align marketing strategies with predicted demand trends.
 Boost Operational Efficiency: Minimize overstocking and stockouts, reducing operational costs.
 
 
-How to Use:
+# How to Use:
 Clone the repository.
 Install dependencies from the requirements.txt file.
 Preprocess the provided data using the data_preprocessing.py script.
