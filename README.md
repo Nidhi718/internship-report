@@ -1,4 +1,4 @@
-# Demand_Forecasting_for_E-Commerce_Infosys_internship_Oct2024
+# Demand_Forecasting_for_E-Commerce_Infosys_internship_Oct_2024
 This project focuses on demand forecasting for e-commerce, leveraging historical data and machine learning models to predict future demand for products. Accurate demand forecasting is crucial for optimizing inventory, reducing costs, and improving customer satisfaction by ensuring product availability. 
 
 This project is designed to help businesses anticipate customer demand and make data-driven decisions for inventory management, supply chain optimization, and marketing strategies.
