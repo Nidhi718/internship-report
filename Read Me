@@ -1,0 +1,13 @@
+This Project uses the M5 Forecasting Challenge (Accuracy) Dataset that can be found on Kaggle.
+
+After preprocessing, feature selection, and feature engineering (aggregating say sales into groups of 28, lagged features, rolling sum and mean, etc), the updated dataset can be found (titled 'sales_final.csv') in the directory
+
+The objective was to use the preceding months to predict for the last 3 months.
+
+Iterative prediction where we predicted for one month, then used that to predict for the next month, gave better performance than multi-step predictions.
+
+Various models were tested. The best performance was given be an Ensemble model that blended the XGBoost model and the LGBM model with the help of the Random Forest Regressor. 
+
+Note: The optimal features were found for both models to reduce noise. Hyperparameters have also been specified for the two.
+
+The resultant model had an average mean absolute error of around 4.5 and an r2 score of over 98.9%
